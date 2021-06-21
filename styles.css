@@ -1,0 +1,283 @@
+/*All Formattings! */
+
+/*format paragraph*/
+p 
+{
+	font-family: "Trebuchet MS";
+	color: purple;
+} 
+
+/* different headings formatted as follows  */
+h1
+{
+	color: blue;
+	font-family: "Brush Script MT";
+}
+
+h2
+{
+	color: green;
+	font-family: Garamond;
+}
+
+h3
+{
+	color: red;
+	font-family: Garamond;
+}
+
+h4
+{
+	font-family: Arial;
+
+}
+
+/* format lists */
+ul
+{
+	font-family: Georgia;
+	color: black;
+}
+
+ol
+{
+	font-family: "Times New Roman";
+}
+
+/*aligns */
+.center
+{
+	text-align: center;
+}
+
+div.right 
+{
+	text-align: right;
+}
+
+.table-center
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* background */
+.yellow-background
+{
+	background-color: LightYellow;
+}
+
+.yellow-background2
+{
+	background-color: LightYellow;
+	border-style: dashed;
+	padding: 5px;
+}
+
+.home-bg
+{
+	background-image: url("https://www.designyourway.net/blog/wp-content/uploads/2020/04/Watercolor-pink-texture-background-Ethereal-looking.jpg");
+	height: 100%;
+}
+
+.reference-bg
+{
+	background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg");
+	height: 100%;
+}
+
+.childhood-bg
+{
+	background-image: url("https://image.freepik.com/free-photo/old-crumpled-paper-background_18981-1.jpg");
+	height: 100%;
+}
+
+.current-bg
+{
+	background-image: url("https://static.vecteezy.com/system/resources/previews/000/677/971/non_2x/seamless-background-with-lights-and-halos.jpg");
+	height: 100%;
+}
+
+.hobbies-bg
+{
+	background-image: url("https://image.freepik.com/free-vector/beautiful-hand-painted-watercolor-background_1020-1131.jpg");
+	height: 100%;
+}
+
+.likes-dislikes-bg
+{
+	background-image: url("https://image.freepik.com/free-photo/pastel-background-with-geometric-shapes_61607-161.jpg");
+	height: 100%;
+}
+
+/* bold text */
+.thick
+{
+	font-weight: bold;
+}
+
+.thicker
+{
+	font-weight: bold;
+}
+
+/*line breaks */
+#content1::after
+{
+    content: "\a";
+    white-space: pre;
+}
+
+/*format boxes */
+.footer
+{
+	border-style: dotted;
+	background-color: #e6f2ff;
+}
+
+.content-list
+{
+	border-style: dashed;
+	background-color: #d6f5f5;
+	margin: 0px 400px 0px 0px;
+}
+
+.plan-list
+{
+	margin: 0px 400px 0px 0px;
+}
+
+.quote-list1
+{
+	margin: 0px 400px 0px 0px;
+}
+
+.hobby-list
+{
+	border-style: dashed;
+	background-color: #e5ecff;
+	margin: 0px 400px 0px 0px;
+}
+
+.everything
+{
+	margin: 20px;
+}
+
+/*other formatting */
+.img-container 
+{
+	float: right;
+	width: 33.33%; 
+	padding: 5px; 
+}
+
+table, tr, th, td
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+/*hovers */
+.pick:hover::after
+{
+	background-color: SeaGreen;
+	content: "Click here!";
+}
+
+.just-hove ol li:hover
+{
+	background-color: LightYellow;
+}
+
+.just-hove2 li:hover
+{
+	background-color: #CCCCFF;
+}
+
+.just-hove3 blockquote:hover
+{
+	background-color: #CCFFCC;
+}
+
+/*format pics */
+.column 
+{
+	float: left;
+	width: 25%;
+	padding: 5px;
+}
+
+.row::after 
+{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/*table formatting */
+.heading-color
+{
+	background-color: #CCCCCC;
+}
+
+#monday-color
+{
+	background-color: #FFCC99;
+}
+
+#tuesday-color
+{
+	background-color: #CCFFFF;
+}
+
+#wednesday-color
+{
+	background-color: #CCFFCC;
+}
+
+#thursday-color
+{
+	background-color: #CCCCFF;
+}
+
+#friday-color
+{
+	background-color: #FFCCCC;
+}
+
+#saturday-color
+{
+	background-color: #FFCCFF;
+}
+
+#sunday-color
+{
+	background-color: #FFFFCC;
+}
+
+.likes-side
+{
+	background-color: #d9d9f2;
+}
+
+.dislikes-side
+{
+	background-color: #f2d9d9;
+}
+
+/*text color */
+.pink
+{
+	color: pink;
+}
+
+.maroon
+{
+	color: maroon;
+}
+
+.dark-green
+{
+	color: #666633;
+}
